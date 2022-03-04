@@ -5,4 +5,7 @@ class Routes {
   }
 
   static const HOME = '/home';
+  static const CATEGORIES = '/home/categories';
+  static const PROFILE = '/user/profile';
+  static const USER = '/user';
 }
