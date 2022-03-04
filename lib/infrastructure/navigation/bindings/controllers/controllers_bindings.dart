@@ -1,0 +1,1 @@
+export 'package:hojre_customer_app/infrastructure/navigation/bindings/controllers/home.controller.binding.dart'; 
