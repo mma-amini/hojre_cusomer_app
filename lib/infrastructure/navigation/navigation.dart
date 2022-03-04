@@ -31,5 +31,20 @@ class Nav {
       page: () => HomeScreen(),
       binding: HomeControllerBinding(),
     ),
+    GetPage(
+      name: Routes.USER,
+      page: () => UserScreen(),
+      binding: UserControllerBinding(),
+    ),
+    GetPage(
+      name: Routes.PROFILE,
+      page: () => ProfileScreen(),
+      binding: ProfileControllerBinding(),
+    ),
+    GetPage(
+      name: Routes.CATEGORIES,
+      page: () => CategoriesScreen(),
+      binding: CategoriesControllerBinding(),
+    ),
   ];
 }
